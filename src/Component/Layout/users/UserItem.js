@@ -16,7 +16,7 @@ const UserItem = ({user : {login,avatar_url,html_url}}) => {
              <h1 className='text-center'>{login}</h1>   
             <img src={avatar_url} className='round-img' style={{width:'60px'}}></img>
             <div>
-            <Link className='btn btn-dark btn-sm my-1' to={`/user/${login}`}> Ughadun Bagh re!</Link>
+            <Link className='btn btn-dark btn-sm my-1' to={`/user/${login}`}> Link</Link>
             </div>
 
                 

@@ -4,7 +4,7 @@ import React from 'react'
     return (
         alert !=null &&(
             <div className={`alert alert-${alert.type}`}>
-                <i class="fas fa-skull-crossbones" />{alert.msg}
+                <i className="fas fa-skull-crossbones" />{alert.msg}
 
 
             </div>
